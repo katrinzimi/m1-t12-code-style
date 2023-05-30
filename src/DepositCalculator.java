@@ -1,6 +1,6 @@
-import java.net.URI;import java.util.Scanner;import java.io.IOException;
+import java.util.Scanner;
 
-public class calculate_deposit
+public class DepositCalculator
 {
 double Calculate_Complex_Percent_Function(double a, double y,int d ) {
        double pay = a * Math.pow((1 + y/ 12), 12 *d);
@@ -31,7 +31,7 @@ double Calculate_Complex_Percent_Function(double a, double y,int d ) {
     }
 public static void main(String[] args)
     {
-        new calculate_deposit().do_important_job();
+        new DepositCalculator().do_important_job();
 }
 
 
